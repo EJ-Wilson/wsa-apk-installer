@@ -1,0 +1,22 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+.fileSelector {
+  display: flex;
+  flex-direction: row;
+}
+
+.fileSelector > div {
+  margin-left: 5px;
+  font-size: smaller;
+}
+
+.output {
+  margin-top: 5px;
+  color: red;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WSA Apk Installer</title>
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+    <h1>WSA Apk Installer</h1>
+    <p>Easy installer for apks on Windows Subsystem for Android.</p>
+    <p>Before starting open Windows Subsystem for Android, check developer mode is on in advanced settings
+      and then open files from the general page and leave running during install.
+    </p>
+    <input id="connectBtn" type="button" value="Connect" />
+    <br/>
+    <br/>
+    <div class="fileSelector" id="fileSelector" style="display: none;"> 
+      <button type="button" id="btn">Choose File</button>
+      <div id="filePath">No file chosen</div>
+    </div>
+    <input id="selectBtn" type="button" value="Install" style="display: none;"/>
+    <br/>
+    <p class="output" id="output"></p>
+  </body>
+</html>
